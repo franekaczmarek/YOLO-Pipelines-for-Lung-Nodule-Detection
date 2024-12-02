@@ -284,9 +284,9 @@ for filename in os.listdir(nifti_input_folder):
             if not np.any(lungs_mask_slice):
                 continue
 
-            # Skip slices without nodules or with area less than 25 mm^2
+            # Skip slices without nodules or with area less than 5 mm^2
             nodule_area = calculate_nodule_area(label_slice, pixel_spacing)
-            if nodule_area < 25:
+            if nodule_area < 5:
                 continue
 
             # Store necessary data for later processing
