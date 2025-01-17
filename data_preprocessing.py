@@ -574,8 +574,8 @@ def process_files(file_list, dataset_name):
         print(f"  Total slices saved: {stats['slices_saved_count']}")
         print(f"  Total slices with nodules saved: {stats['slices_with_nodules_saved_count']}\n")
 
-# Set a random seed for reproducibility (optional)
-random.seed(42)
+
+
 
 # Process files for each dataset
 process_files(train_files, 'train')
