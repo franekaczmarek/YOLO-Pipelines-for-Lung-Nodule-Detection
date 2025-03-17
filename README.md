@@ -1,5 +1,4 @@
 # YOLO-Pipelines-for-Lung-Nodule-Detection
-# YOLO Pipelines for Lung Nodule Detection
 
 ## Overview
 
