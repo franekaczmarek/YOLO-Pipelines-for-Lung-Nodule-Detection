@@ -33,11 +33,6 @@ This project aims to develop a robust pipeline for detecting lung nodules in com
 
 ## Results
 
-| Model       | mAP@0.5 | Precision | Recall | Inference Time |
-|-------------|----------|-----------|--------|----------------|
-| YOLOv5-l    | 0.54     | 0.62      | 0.53   | 8.6 ms         |
-| YOLOv10-l   | **0.61** | **0.66**  | **0.54** | **6.8 ms**     |
-
 - YOLOv10-l outperformed YOLOv5-l in terms of mAP@0.5, precision, recall, and inference time.
 - Optimized preprocessing techniques significantly improved detection accuracy.
 - Error analysis revealed challenges with small nodules and those near lung boundaries, emphasizing areas for improvement.
